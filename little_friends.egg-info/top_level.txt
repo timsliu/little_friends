@@ -1,0 +1,3 @@
+folders
+latex
+make_pdf

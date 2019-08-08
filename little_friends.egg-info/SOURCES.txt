@@ -1,0 +1,11 @@
+setup.py
+folders/__init__.py
+folders/folders.py
+latex/__init__.py
+latex/latex.py
+little_friends.egg-info/PKG-INFO
+little_friends.egg-info/SOURCES.txt
+little_friends.egg-info/dependency_links.txt
+little_friends.egg-info/top_level.txt
+make_pdf/__init__.py
+make_pdf/make_pdf.py

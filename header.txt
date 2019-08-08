@@ -1,0 +1,74 @@
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+%packages
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{ulem}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{titling}
+\usepackage{enumerate} 
+\usepackage[compact]{titlesec}
+
+
+ %put box around figure captions
+\makeatletter
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{\fbox{#1: #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    \fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{#1: #2}}\par
+  \else
+    \global \@minipagefalse
+    \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother
+
+%reduce space between sections
+\titlespacing{\section}{0pt}{*1}{*0}
+\titlespacing{\subsection}{0pt}{*1}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+
+%no indent and modify distance between paragraphs
+\setlength\parindent{0pt}
+\setlength\parskip{12pt}
+
+%set margins and line spacing
+\geometry{margin=1in}
+\linespread{1.1}
+\geometry{letterpaper}
+
+
+%set up header and page numbering
+\pagestyle{fancy}
+\lhead{***Internal use only***}
+\rhead{}
+\pagenumbering{arabic}
+
+\hypersetup{  %set up url
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+
+
+\title{Partner feedback questionnaire - responses}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+
+\tableofcontents
+\newpage
